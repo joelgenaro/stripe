@@ -1,0 +1,307 @@
+.private-membership-container {
+    padding-top: 30px;
+}
+
+.private-membership-container .page-title {
+    font-size: 30px;
+}
+
+.private-membership-container .page-content {
+    max-width: 930px;
+    margin: auto;
+}
+
+.private-membership-container .membership-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.private-membership-container .membership-item {
+    flex-basis: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    /* margin-left: 100px; */
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    background-color: #fafafa;
+}
+
+.private-membership-container .membership-item:last-child {
+    margin-right: 0;
+}
+
+.private-membership-container .membership-item-header {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #005492;
+    border-radius: 5px;
+    color: #fafafa;
+}
+
+.private-membership-container .membership-item-unlimited-header {
+    background-color: #0191E6;
+}
+
+.private-membership-container .membership-item-content {
+    padding: 15px 20px 15px;
+}
+
+.private-membership-container .membership-item-content ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.premimu-membership-container .membership-item-content li>* {
+    vertical-align: middle;
+}
+
+.private-membership-container .membership-item-content i {
+    font-size: 10px;
+    vertical-align: middle;
+    line-height: 41px;
+    margin-right: 10px;
+    color: #005492;
+}
+
+.private-membership-container .memberships-table {
+    width: 100%;
+}
+
+.private-membership-container .my-membership-tbl td {
+    vertical-align: middle;
+}
+
+.private-membership-modal .accordion-item {
+    background: #dbdbdb;
+    margin-bottom: 10px !important;
+    border: 1px solid #cccccc;
+    border-bottom-left-radius: var(--bs-accordion-border-radius) !important;
+    border-bottom-right-radius: var(--bs-accordion-border-radius) !important;
+    border-top-left-radius: var(--bs-accordion-border-radius) !important;
+    border-top-right-radius: var(--bs-accordion-border-radius) !important;
+    background: #EFEFEF;
+}
+
+.private-membership-modal .accordion-item .accordion-button.collapsed {
+    border-bottom-left-radius: var(--bs-accordion-border-radius) !important;
+    border-bottom-right-radius: var(--bs-accordion-border-radius) !important;
+    border-top-left-radius: var(--bs-accordion-border-radius) !important;
+    border-top-right-radius: var(--bs-accordion-border-radius) !important;
+}
+
+.private-membership-modal .accordion-button,
+.private-membership-modal .accordion-button:not(.collapsed) {
+    background-color: #dbdbdb;
+}
+
+.private-membership-modal .accordion-button:not(.collapsed),
+.private-membership-modal .accordion-collapse .accordion-body {
+    color: #005492;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #adb0b3 !important;
+}
+
+.private-membership-modal .accordion-button:focus {
+    box-shadow: none;
+}
+
+.private-membership-modal .accordion-item .accordion-button:not(.collapsed) {
+    border-top-left-radius: var(--bs-accordion-border-radius) !important;
+    border-top-right-radius: var(--bs-accordion-border-radius) !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.private-membership-modal .btn-close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.invoice-item-label {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+.invoice-item-content {
+    font-size: 20px;
+    color: #000000;
+}
+
+.invoice-view-modal .btn-close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.item-description-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.invoice-view-modal .invoice-billing-info {
+    border-radius: 5px;
+    background-color: #D6E4F1;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.invoice-billing-info .invoice-billing-left-info {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.invoice-billing-info .invoice-billing-right-info {
+    flex: 3 1;
+    text-align: right;
+}
+
+.private-membership-container .why-answersheet-nav {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.private-membership-container .why-answersheet-nav>li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.0rem;
+}
+
+.private-membership-container .why-answersheet-nav p {
+    margin-bottom: 0px;
+}
+
+.private-membership-container .why-answersheet-nav img {
+    margin-right: 2rem;
+}
+
+.private-membership-modal #stripe {
+    margin-top: 10px !important;
+}
+
+.private-membership-modal #paypal {
+    margin-top: 14px !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .private-membership-container .membership-item {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .private-membership-container .membership-item {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .private-membership-container .membership-items {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .private-membership-container .membership-item:last-child {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .item-description-title-container {
+        text-align: left;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .item-description-title-container {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .private-membership-container .container {
+        max-width: 96% !important;
+    }
+
+    .private-membership-container .membership-item {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .private-membership-container .my-membership-tbl>thead>tr>th:nth-child(2),
+    .private-membership-container .my-membership-tbl>thead>tr>th:nth-child(3),
+    .private-membership-container .my-membership-tbl>tbody>tr>td:nth-child(2),
+    .private-membership-container .my-membership-tbl>tbody>tr>td:nth-child(3) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .action-button-response {
+        margin-left: 0px;
+        margin-top: 4px;
+    }
+}
+
+@media screen and (min-width: 456px) and (max-width: 576px) {
+    .action-button-response {
+        margin-left: 4px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    .action-button-response {
+        margin-left: 0px;
+        margin-top: 4px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .action-button-response {
+        margin-left: 4px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .invoice-billing-left-info>div {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .invoice-billing-left-info>div {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* @media screen and (max-width: 455px) and (min-width: 537px) {
+    .action-button-response {
+        margin-left: 4px;
+        margin-top: 0px;
+    }
+} */

@@ -1,0 +1,12 @@
+.page-container {
+    z-index: 1;
+    position: relative;
+    min-height: calc(100vh - 362px);
+}
+
+.app-sidebar+div {
+    flex: 1;
+    padding-left: 60px;
+    transition: all .2s ease;
+    min-height: calc(100vh - 362px);
+}

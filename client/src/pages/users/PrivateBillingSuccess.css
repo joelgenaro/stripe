@@ -1,0 +1,6 @@
+.private-billing-success-container {
+    min-height: calc(100vh - 335px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

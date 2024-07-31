@@ -1,0 +1,22 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+	<title>avatar-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 0h600v498h-600z"/>
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp2">
+			<path d="m300 580c-154.84 0-280-125.16-280-280 0-154.84 125.16-280 280-280 154.84 0 280 125.16 280 280 0 154.84-125.16 280-280 280z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: #757575 } 
+		.s1 { fill: #ffffff } 
+	</style>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<path id="Layer" class="s0" d="m300 580c-154.8 0-280-125.2-280-280 0-154.8 125.2-280 280-280 154.8 0 280 125.2 280 280 0 154.8-125.2 280-280 280z"/>
+	</g>
+	<path id="Layer" class="s1" d="m300 345c-63.6 0-115-51.4-115-115 0-63.6 51.4-115 115-115 63.6 0 115 51.4 115 115 0 63.6-51.4 115-115 115z"/>
+	<g id="Clip-Path" clip-path="url(#cp2)">
+		<path id="Layer" class="s1" d="m300 755c-113.4 0-205-91.6-205-205 0-113.4 91.6-205 205-205 113.4 0 205 91.6 205 205 0 113.4-91.6 205-205 205z"/>
+	</g>
+</svg>

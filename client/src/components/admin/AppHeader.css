@@ -1,0 +1,17 @@
+@media (max-width: 395px) {
+  .app-header {
+    position: relative;
+    height: 110px;
+    align-items: flex-start;
+  }
+
+  .app-header .header-toggler,
+  .app-header .header-nav {
+    /* position: absolute; */
+    top: 64px;
+  }
+
+  .app-header .header-nav {
+    right: 20px;
+  }
+}

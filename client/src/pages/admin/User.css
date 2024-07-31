@@ -1,0 +1,225 @@
+.add-modal .accordion-item {
+  background: #dbdbdb;
+  margin-bottom: 10px !important;
+  border: 1px solid #cccccc;
+  border-bottom-left-radius: var(--bs-accordion-border-radius) !important;
+  border-bottom-right-radius: var(--bs-accordion-border-radius) !important;
+  border-top-left-radius: var(--bs-accordion-border-radius) !important;
+  border-top-right-radius: var(--bs-accordion-border-radius) !important;
+  background: #EFEFEF;
+}
+
+.add-modal .accordion-item .accordion-button.collapsed {
+  border-bottom-left-radius: var(--bs-accordion-border-radius) !important;
+  border-bottom-right-radius: var(--bs-accordion-border-radius) !important;
+  border-top-left-radius: var(--bs-accordion-border-radius) !important;
+  border-top-right-radius: var(--bs-accordion-border-radius) !important;
+}
+
+.add-modal .accordion-button,
+.add-modal .accordion-button:not(.collapsed) {
+  background-color: #dbdbdb;
+}
+
+.add-modal .accordion-button:not(.collapsed),
+.add-modal .accordion-collapse .accordion-body {
+  color: #005492;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #adb0b3 !important;
+}
+
+.add-modal .accordion-button:focus {
+  box-shadow: none;
+}
+
+.add-modal .accordion-item .accordion-button:not(.collapsed) {
+  border-top-left-radius: var(--bs-accordion-border-radius) !important;
+  border-top-right-radius: var(--bs-accordion-border-radius) !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.add-modal .btn {
+  transition: all .2s ease;
+  padding: .5rem 2rem;
+  background: linear-gradient(90deg, #0191e6 0%, #014973 100%);
+}
+
+.add-modal .btn:hover {
+  box-shadow: 0px 3px 4px #015180;
+}
+
+.add-modal .btn:active {
+  background: linear-gradient(90deg, #032e47 0%, #0a4f77 100%) !important;
+}
+
+.add-modal .btn-close,
+.remove-modal .btn-close,
+.view-modal .btn-close,
+.membership-view-modal .btn-close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.add-modal .tax-invoice-container {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px 0;
+  margin-bottom: 12px;
+}
+
+.view-modal {
+  display: flex;
+  min-height: calc(100vh - 335px);
+  align-items: center;
+}
+
+.view-modal .btn-default {
+  border: 1px solid #dddddd;
+}
+
+.view-modal .btn-default>* {
+  vertical-align: middle;
+}
+
+.view-modal .description-items {
+  display: flex;
+}
+
+.view-modal .description-item {
+  margin-right: 25px;
+}
+
+.view-modal .description-item .description-item-name {
+  color: #505050;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.view-modal .description-item .description-item-value {
+  color: #000000;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.view-modal .item-description-container .item-description-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.view-modal .invoice-billing-info {
+  border-radius: 5px;
+  background-color: #D6E4F1;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.invoice-billing-info .invoice-billing-left-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.invoice-billing-left-info>div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.invoice-billing-info .invoice-billing-right-info {
+  flex: 3;
+  text-align: right;
+}
+
+.membership-view-modal h1 {
+  font-size: 2rem;
+}
+
+.membership-view-modal button {
+  float: right;
+}
+
+.invoice-item-label {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+.invoice-item-content {
+  font-size: 20px;
+  color: #000000;
+}
+
+
+.invoice-item-label {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+.invoice-item-content {
+  font-size: 20px;
+  color: #000000;
+}
+
+.invoice-view-modal .btn-close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.item-description-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.invoice-view-modal .invoice-billing-info {
+  border-radius: 5px;
+  background-color: #D6E4F1;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.invoice-billing-info .invoice-billing-left-info {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.invoice-billing-info .invoice-billing-right-info {
+  flex: 3 1;
+  text-align: right;
+}
+
+
+@media (max-width: 992px) {
+  .view-modal .invoice-content {
+    flex-direction: column;
+  }
+
+  .view-modal .invoice-billing-right-info {
+    flex: 1;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .item-description-title-container {
+      text-align: left;
+      margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .item-description-title-container {
+      text-align: right;
+  }
+}

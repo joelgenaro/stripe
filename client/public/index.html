@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="AnswerSheet" data-react-helmet="true">
+  <meta name="viewport" content="width=device-width,initial-scale=1" data-react-helmet="true">
+  <meta name="description"
+    content="AnswerSheet has HSC study guides, practice questions and exams to help you achieve a band 6 in your HSC subjects. We have syllabus summaries, practice HSC exam-style questions, and sample answers to show you how to write band 6 responses."
+    data-react-helmet="true">
+  <meta name="keywords"
+    content="HSC notes, HSC study guides, syllabus summaries, dot point notes, HSC summaries, HSC English, HSC Physics, HSC maths, HSC Chemistry, HSC Biology"
+    data-react-helmet="true">
+  <link rel="icon" href="%PUBLIC_URL%/favicon.svg">
+  <link rel="preload" href="../src/assets/fonts/Montserrat-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="../src/assets/fonts/Montserrat-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
+  <title>AnswerSheet - HSC made easy</title>
+  <!-- <script src="%PUBLIC_URL%/tinymce/tinymce.min.js" referrerpolicy="origin"></script> -->
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script>
+    navigator.sayswho = (function () {
+      var ua = navigator.userAgent;
+      var tem;
+      var M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+      if (/trident/i.test(M[1])) {
+        tem = /\brv[ :]+(\d+)/g.exec(ua) || [];
+        return 'IE ' + (tem[1] || '');
+      }
+      if (M[1] === 'Chrome') {
+        tem = ua.match(/\b(OPR|Edge)\/(\d+)/);
+        if (tem != null) return tem.slice(1).join(' ').replace('OPR', 'Opera');
+      }
+      M = M[2] ? [M[1], M[2]] : [navigator.appName, navigator.appVersion, '-?'];
+      if ((tem = ua.match(/version\/(\d+)/i)) != null) M.splice(1, 1, tem[1]);
+      return M.join(' ');
+    })();
+
+    var result = navigator.sayswho
+    var arr = result.split(' ')
+    var br = arr[0];
+    var ver = Number(arr[1]);
+    console.log(br)
+    console.log(ver)
+    if ((br == 'IE' && ver <= 11) || (br == 'Chrome' && ver <= 60) || (br == 'Safari' && ver <= 13)) window.location.assign('error.html')
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,248 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url(assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: MontserratNormal;
+  src: url(assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+  /* font-family: MontserratNormal; */
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: MontserratBold;
+  font-weight: 700;
+  color: #005492 !important;
+}
+
+body,
+.page-container {
+  background: #f4f7fa !important;
+}
+
+tr {
+  cursor: pointer;
+}
+
+.flex-1 {
+  flex: 1
+}
+
+
+h1 {
+  font-size: 30px !important;
+}
+
+h2 {
+  font-size: 25px !important;
+}
+
+h3 {
+  font-size: 21px !important;
+}
+
+h4 {
+  font-size: 18px !important;
+}
+
+h5 {
+  font-size: 15px !important;
+}
+
+h6 {
+  font-size: 12px !important;
+}
+
+.modal-title {
+  font-size: 30px !important;
+}
+
+.label {
+  text-shadow: none !important;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 4px 10px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  display: inline;
+  line-height: 1;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 50px !important;
+}
+
+.label-default {
+  background-color: #bac3d0;
+}
+
+.label-primary {
+  background-color: #337ab7;
+}
+
+.label-info {
+  background-color: #659be0;
+}
+
+.label-success {
+  background-color: #36c6d3;
+}
+
+.label-danger {
+  background-color: #ed6b75;
+}
+
+.label-warning {
+  background-color: #F1C40F;
+}
+
+.label-purple {
+  background-color: #EA6184;
+}
+
+.label-dark-blue {
+  background-color: #FC766D;
+}
+
+.label-dark-yellow {
+  background-color: #E4A254;
+}
+
+.label-dark-green {
+  background-color: #40BCB3;
+}
+
+.label-dark-red {
+  background-color: #E12A37;
+}
+
+.label-light-red {
+  background-color: #F87774;
+}
+
+.quesion-field .accordion .card {
+  border-width: 0px !important;
+}
+
+.quesion-field .accordion .card .accordion-item {
+  border: 1px solid rgba(0, 0, 0, 0.175) !important;
+}
+
+.quesion-field .accordion .card .accordion-item .accordion-button {
+  background-color: white;
+  color: #212529;
+}
+
+.quesion-field .accordion .card .accordion-item .accordion-header p {
+  margin-bottom: 0px;
+}
+
+.quesion-field .accordion .card .accordion-item .accordion-body {
+  overflow-x: auto;
+}
+
+.btn-close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.react-tagsinput {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  padding-left: 5px;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+
+.react-tagsinput--focused {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, .25);
+}
+
+.react-tagsinput-tag {
+  background-color: #cee7f9;
+  border-radius: 4px;
+  color: #222;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.react-tagsinput-remove {
+  cursor: pointer;
+  font-weight: bold;
+  color: #222;
+  margin-left: 3px;
+  text-decoration: none;
+}
+
+.react-tagsinput-tag a::before {
+  content: " ×";
+}
+
+.react-tagsinput-input {
+  background: transparent;
+  border: 0;
+  color: #777;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 6px;
+  margin-top: 1px;
+  outline: none;
+  padding: 5px;
+  width: 80px;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #cecece;
+  border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0d6efd;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0c4498;
+}
+
+.sm-hide {
+  display: none;
+}
+
+.scroll-touch {
+  -webkit-overflow-scrolling: touch;
+}
+
+@media screen and (min-width: 576px) {
+  .sm-hide {
+    display: block;
+  }
+}
+
+.tox .tox-listboxfield .tox-listbox--select, .tox .tox-textarea, .tox .tox-textfield, .tox .tox-toolbar-textfield {
+  resize: auto !important;
+}

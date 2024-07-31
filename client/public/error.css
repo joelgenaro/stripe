@@ -1,0 +1,106 @@
+@font-face {
+    font-family: MontserratBold;
+    src: url(error-font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: MontserratNormal;
+    src: url(error-font/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: MontserratNormal;
+}
+
+
+html {
+    font-family: MontserratBold;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.page-container {
+    position: relative;
+    margin-top: 250px;
+}
+
+.middle-center {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+header {
+    height: 109px;
+}
+
+h1 {
+    font-size: 36px !important;
+    font-family: MontserratBold;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #005492 !important;
+}
+
+.navbar {
+    padding-top: 30px !important;
+    padding-bottom: 10px !important;
+    position: fixed !important;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+.content {
+    text-align: center;
+}
+
+.icon-container {
+    margin-top: 32px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.icon-card {
+    background-color: #005492;
+    color: #fff;
+    width: 100px;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.icon-card img {
+    width: 60px;
+    height: 60px;
+}
+
+.icon-card .broswer-name {
+    font-size: 18px;
+}
+
+.icon-card a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.icon-card a:hover {
+    color: white !important;
+    text-decoration: underline;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem #00000026 !important;
+}
